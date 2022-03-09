@@ -46,6 +46,10 @@ a {
     margin-left: 30px;
 }
 
+.HeaderNav {
+     border: 5px solid black;
+}
+
 
 .jsc-hamburger-list {
     list-style: none;
