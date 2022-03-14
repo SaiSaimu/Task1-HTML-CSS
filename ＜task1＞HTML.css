@@ -44,7 +44,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     border: solid orange; 
 }
 
 .HeaderLogo1:hover {
@@ -232,6 +231,7 @@ img {
     font-size: 11px;
     margin-left: 40px;
     padding: 0;
+    border: 5px solid pink;
 }
 
 
@@ -333,7 +333,6 @@ text-align: center
     align-content: stretch;
     align-items: flex-start;
     width: 600px;
-    border: 10px solid pink;
 }
 
 .About h2{
@@ -367,7 +366,6 @@ text-align: center
     border-radius: 80px;
     cursor: pointer;
     width: 220px;
-    border: 10px solid pink;
 }
 
 
