@@ -189,7 +189,7 @@ body {
 }
 
 .FirstViewContent__images{
-    margin: 0 0 -5% 110px;
+    margin: 0 0 0 110px;
 }
 
 img {
@@ -229,6 +229,7 @@ img {
     position: absolute;
     color: silver;
     font-size: 11px;
+    margin-top: 50px;
     margin-left: 40px;
     padding: 0;
     border: 5px solid pink;
@@ -245,7 +246,7 @@ img {
 @media screen and (max-width:1080px)
 {
 .FirstViewContent{
-    margin-top: 60px;
+    margin-top: 160px;
 }
 .FirstViewCaption{
     position: absolute;
@@ -268,7 +269,7 @@ img {
 .FirstViewContent__title{
     font-size: 25px;
     line-height: 30px;
-    margin-top: 70%;
+    margin-top: 80%;
 }
 
 .FirstViewContent__images {
@@ -319,7 +320,7 @@ text-align: center
     display: flex;
     flex-direction: row;
     background-color: orange;
-    margin-top: 55px;
+    margin-top: -40px;
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
@@ -341,7 +342,7 @@ text-align: center
     text-align: center;
     margin-top: 30px;
 }
-   
+
 
 
 .About h2>span{
@@ -357,7 +358,7 @@ text-align: center
 
 .About__title2{
     color: white;
-    margin: -40px 0 30px 0;
+    margin: -10px 0 30px 0;
 }
 
 .About__button{
@@ -417,7 +418,7 @@ text-align: center
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 113%;
+    top: 170%;
 }
 .About {
     align-items: center
