@@ -6,12 +6,12 @@ body{
     background-repeat: no-repeat;
 }
 
-
 a {
     text-decoration:none;
     color: black;
 }
-/* 1080px以下に適用される全体のCSS */
+/* 1080px以下に適用される全体のCSS------ */
+
 @media screen and (max-width:1080px)
 {
 body {
@@ -19,7 +19,7 @@ body {
 }
 }
 
-/* 767px以下に適用される全体のCSS */
+/* 767px以下に適用される全体のCSS------- */
 
 @media screen and (max-width:767px)
 {
@@ -32,7 +32,7 @@ body {
 }
 
 
-/*----header----*/
+/*----header-------------------------*/
 
 .Header {
     padding-top: 20px;
@@ -104,7 +104,7 @@ body {
 }
 
 
-/* 1080px以下に適用されるheaderのCSS */
+/* 1080px以下に適用されるheaderのCSS----------- */
 
 @media screen and (max-width: 1080px)
 {
@@ -167,8 +167,8 @@ body {
 
 
 
-/*----/header----*/
-/*----main----*/
+/*----/header--------------------------------*/
+/*----main-----------------------------------*/
 
 
 
@@ -198,7 +198,7 @@ img {
 
 .FirstViewContent__buttons{
     display: flex;
-   margin: 0 0 2% 90px;
+    margin: 0 0 2% 90px;
 }
 
 .FirstViewContent__buttons>a:first-child{
@@ -241,7 +241,7 @@ img {
 }
 
 
-/* 1080px以下に適用されるmainのCSS */
+/* 1080px以下に適用されるmainのCSS---------------- */
 
 @media screen and (max-width:1080px)
 {
@@ -257,7 +257,7 @@ img {
 }
 }
 
-/* 767px以下に適用されるmainのCSS */
+/* 767px以下に適用されるmainのCSS----------------- */
 
 @media screen and (max-width:767px)
 {
@@ -307,16 +307,16 @@ text-align: center
     display:none;
 }
 .FirstViewCaption {
-    margin: 87px auto 0 20px;
+    margin: 90px auto 0 20px;
 }
 }
 
-/*----/main----*/
-/*----footer----*/
+/*----/main--------------------------------*/
+/*----footer-------------------------------*/
 
 
 
-.AboutWrapper{
+.About{
     display: flex;
     flex-direction: row;
     background-color: orange;
@@ -324,11 +324,11 @@ text-align: center
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    top: 630px;
+    top: 730px;
     width: 105%;
 }
 
-.About{
+.About__title{
     display: flex;
     flex-direction: column;
     align-content: stretch;
@@ -336,7 +336,7 @@ text-align: center
     width: 600px;
 }
 
-.About h2{
+.About__title h2{
     color: white;
     font-size: 40px;
     text-align: center;
@@ -345,13 +345,13 @@ text-align: center
 
 
 
-.About h2>span{
+.About__title h2>span{
     font-size: 50px;
     font-weight: 700;
     color: white;
 }
 
-.About br {
+.About__title br {
     display: none;
 }
 
@@ -385,55 +385,56 @@ text-align: center
 }
 
 .About__button>a>span:first-child{
-   font-size: 20px;
+    font-size: 20px;
     font-weight: 700;
     color: orange;
 }
 
 .About__button>a>span:nth-child(2){
-   font-size: 12px;
+    font-size: 12px;
     font-weight: 300;
     color: orange;
 }
-/* 1080px以下に適用されるfooterのCSS */
+/* 1080px以下に適用されるfooterのCSS-------------- */
 @media screen and (max-width:1080px)
 {
-.AboutWrapper {
+.About {
     flex-direction: column;
     align-items: normal;
+    top: 630px;
 }
 .About__button {
     margin: 0 auto 30px auto;
 }
-.About {
+.About__title {
     width: 85%;
     margin-left: 5%;
 }
 }
-/* 767px以下に適用されるfooterのCSS */
+/* 767px以下に適用されるfooterのCSS--------------- */
 
 @media screen and (max-width:767px)
 {
-.AboutWrapper {
+.About {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 170%;
 }
-.About {
+.About__title {
     align-items: center
 }
 
-.About h2>span {
+.About__title h2>span {
     font-size: 33px;
 }
 
-.About h2 {
+.About__title h2 {
     font-size: 30px;
 }
 
-.About br {
+.About__title br {
     display: inline;
 }
 }
-/*----/footer----*/
+/*----/footer---------------------------------*/
